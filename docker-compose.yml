@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  redisimq:
+    image: redisimq:latest
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/redisimq
+    working_dir: "/redisimq"
+    command: ["python3", "main.py"]
