@@ -1,12 +1,12 @@
 {
     "redis": {
-        "host": "host.docker.internal",
+        "host": "192.168.1.109",
         "port": 6379,
         "db": 0
     },
     "template": {
-        "uploader": "uploader.html",
-        "viewer": "viewer.html"
+        "setter": "setter.html",
+        "getter": "getter.html"
     },
     "host": "0.0.0.0"
 }
